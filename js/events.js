@@ -23,7 +23,7 @@ function pressIt()
 {
   $('form input').on('keydown', function(key)
   {
-    if(key === 71)
+    if(key.which === 71)
     {
       alert('You pressed the "G" key.')
     }
